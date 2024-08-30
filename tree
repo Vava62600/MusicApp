@@ -1,0 +1,133 @@
+// This Tree is created on Debian 12 with tree 
+// get tree with "sudo apt install tree"
+
+MusicApp Tree
+├── android
+│   ├── app
+│   │   ├── build.gradle
+│   │   └── src
+│   │       ├── androidTest
+│   │       │   └── java
+│   │       │       └── com
+│   │       │           └── vava
+│   │       │               └── mapp
+│   │       │                   └── MainActivityTest.kt
+│   │       ├── build.gradle
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── com
+│   │       │   │       └── vava
+│   │       │   │           └── mapp
+│   │       │   │               ├── AudioManager.kt
+│   │       │   │               ├── EffectsManager.kt
+│   │       │   │               └── MainActivity.kt
+│   │       │   └── res
+│   │       │       ├── AndroidManifest.xml
+│   │       │       ├── drawable
+│   │       │       │   ├── about.svg
+│   │       │       │   └── icon.png
+│   │       │       └── layout
+│   │       │           └── activity_main.xml
+│   │       └── test
+│   │           └── java
+│   │               └── com
+│   │                   └── vava
+│   │                       └── mapp
+│   │                           ├── AudioManagerTest.kt
+│   │                           └── EffectsManagerTest.kt
+│   └── gradle.properties
+├── backend
+│   ├── audio_manager.cpp
+│   ├── audio_manager.h
+│   ├── effects_manager.cpp
+│   └── effects_manager.h
+├── build-windows
+│   └── CMakeLists.txt
+├── COPYING
+├── gui
+│   └── main_window.cpp
+├── makefile
+├── platform
+│   ├── android
+│   ├── linux
+│   │   ├── build
+│   │   │   ├── CMakeCache.txt
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── 3.25.1
+│   │   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   │   ├── CompilerIdC
+│   │   │   │   │   │   ├── a.out
+│   │   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   │   └── tmp
+│   │   │   │   │   └── CompilerIdCXX
+│   │   │   │   │       ├── a.out
+│   │   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │   │       └── tmp
+│   │   │   │   ├── cmake.check_cache
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── CMakeOutput.log
+│   │   │   │   ├── Makefile2
+│   │   │   │   ├── Makefile.cmake
+│   │   │   │   ├── pkgRedirects
+│   │   │   │   ├── progress.marks
+│   │   │   │   ├── PulsePipeWrapper.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── cmake_clean_target.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── pulse_pipe_wrapper.cpp.o
+│   │   │   │   │   └── pulse_pipe_wrapper.cpp.o.d
+│   │   │   │   ├── PulsePipeWrapperTest.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── pulse_pipe_wrapper_test.cpp.o
+│   │   │   │   │   └── pulse_pipe_wrapper_test.cpp.o.d
+│   │   │   │   └── TargetDirectories.txt
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── libPulsePipeWrapper.a
+│   │   │   ├── Makefile
+│   │   │   └── PulsePipeWrapperTest
+│   │   ├── CMakeLists.txt
+│   │   ├── pulse_pipe_wrapper.cpp
+│   │   ├── pulse_pipe_wrapper.h
+│   │   └── pulse_pipe_wrapper_test.cpp
+│   └── windows
+│       └── build
+├── README.md
+├── ressources
+│   ├── icons
+│   │   ├── about.svg
+│   │   └── icon.png
+│   ├── json_effects
+│   └── themes
+├── scripts
+│   └── install_dependencies.sh
+├── translations
+│   ├── ar.po
+│   ├── be.po
+│   ├── ch.po
+│   ├── de.po
+│   ├── en.po
+│   ├── es.po
+│   ├── fr.po
+│   ├── it.po
+│   ├── jpn.po
+│   └── nl.po
+└── tree
