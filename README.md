@@ -1,4 +1,4 @@
-<div style="text-align: center;"><img src="ressources/icons/icon.png" width="64px" height="64px"><a href="https://github.com/Vava62600/MusicApp"></a></img></div>
+<div style="text-align: center;"><img src="ressources/icons/icon.png" width="128px" height="128px"><a href="https://github.com/Vava62600/MusicApp"></a></img></div>
 <br>
 <div style="text-align: center;">
   <a href="https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml">
