@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="add_effect">Ajouter un effet</string>
+    <string name="about">À propos</string>
+    <string name="about_info">MusicApp v1.0(Bêta)\nDéveloppé par Vava62600</string>
+    <string name="about_image">Image À propos de MusicApp</string>
+</resources>

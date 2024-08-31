@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutActivity">
 
-    <!-- Exemple de bouton pour ajouter des effets -->
-    <Button
-        android:id="@+id/btnAddEffect"
+    <!-- Image "À propos" -->
+    <ImageView
+        android:id="@+id/aboutImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ajouter un effet" />
+        android:src="@drawable/about"
+        android:contentDescription="@string/about_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
 
-    <!-- Ajoutez d'autres composants ici -->
+    <!-- Texte "À propos" -->
+    <TextView
+        android:id="@+id/tvAboutInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_info"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/aboutImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
