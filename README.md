@@ -1,6 +1,21 @@
-<img src="ressources/icons/icon.png"><a href="https://github.com/Vava62600/MusicApp"></a></img>
+<img style="text-align: center;" src="ressources/icons/icon.png" width="64px" height="64px"><a href="https://github.com/Vava62600/MusicApp"></a></img>
 <br>
-[![MusicApp Build Status](https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml)[![MusicApp Release](https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml/badge.svg?event=release)](https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml)[![Documentation Status](https://readthedocs.org/projects/musicapp-docs/badge/?version=latest)](https://musicapp-docs.readthedocs.io/fr/latest/?badge=latest)
+<div style="text-align: center;">
+  <a href="https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml">
+    <img src="https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml/badge.svg" alt="Build Status" />
+  </a>
+</div>
+<div style="text-align: center;">
+  <a href="https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml">
+    <img src="https://github.com/Vava62600/MusicApp/actions/workflows/cmake-multi-platform.yml/badge.svg?event=release" alt="Release Status" />
+  </a>
+</div> 
+<div style="text-align: center;">
+  <a href="https://readthedocs.org/projects/musicapp-docs/badge/?version=latest">
+    <img src="https://musicapp-docs.readthedocs.io/fr/latest/?badge=latest" alt="Release Status" />
+  </a>
+</div>
+
 ## Description :
  MusicApp ( MApp ) is an application for Windows Linux ( Debian distros ) and Android for select your server type, your effects, your devices ( this app is a Client/Server app )
 
