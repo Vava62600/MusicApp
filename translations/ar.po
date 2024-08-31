@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+
+msgid "MusicApp"
+msgstr "MusicApp"
+
+msgid "Choose Audio API:"
+msgstr "اختر واجهة برمجة التطبيقات الصوتية:"
+
+msgid "Start with the system"
+msgstr "ابدأ مع النظام"
+
+msgid "Apply Reverb"
+msgstr "تطبيق الصدى"
+
+msgid "Add Server"
+msgstr "إضافة خادم"
+
+msgid "Select Output Device:"
+msgstr "اختر جهاز الإخراج:"
+
+msgid "Audio"
+msgstr "الصوت"
+
+msgid "Effects"
+msgstr "التأثيرات"
+
+msgid "Network"
+msgstr "الشبكة"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Choose Language:"
+msgstr "اختر اللغة:"

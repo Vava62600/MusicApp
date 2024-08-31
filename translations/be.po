@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: be\n"
+
+msgid "MusicApp"
+msgstr "MusicApp"
+
+msgid "Choose Audio API:"
+msgstr "Выберыце API гуку:"
+
+msgid "Start with the system"
+msgstr "Пачаць з сістэмай"
+
+msgid "Apply Reverb"
+msgstr "Ужыць рэверберацыю"
+
+msgid "Add Server"
+msgstr "Дадаць сервер"
+
+msgid "Select Output Device:"
+msgstr "Выбраць прыладу вываду:"
+
+msgid "Audio"
+msgstr "Аўдыё"
+
+msgid "Effects"
+msgstr "Эфекты"
+
+msgid "Network"
+msgstr "Сетка"
+
+msgid "Settings"
+msgstr "Налады"
+
+msgid "Choose Language:"
+msgstr "Выбраць мову:"

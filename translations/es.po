@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: es\n"
+
+msgid "MusicApp"
+msgstr "MusicApp"
+
+msgid "Choose Audio API:"
+msgstr "Elige API de Audio:"
+
+msgid "Start with the system"
+msgstr "Iniciar con el sistema"
+
+msgid "Apply Reverb"
+msgstr "Aplicar Reverberación"
+
+msgid "Add Server"
+msgstr "Agregar Servidor"
+
+msgid "Select Output Device:"
+msgstr "Seleccionar dispositivo de salida:"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Effects"
+msgstr "Efectos"
+
+msgid "Network"
+msgstr "Red"
+
+msgid "Settings"
+msgstr "Configuraciones"
+
+msgid "Choose Language:"
+msgstr "Elige idioma:"

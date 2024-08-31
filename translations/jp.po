@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ja\n"
+
+msgid "MusicApp"
+msgstr "ミュージックアプリ"
+
+msgid "Choose Audio API:"
+msgstr "オーディオAPIを選択："
+
+msgid "Start with the system"
+msgstr "システムと一緒に起動"
+
+msgid "Apply Reverb"
+msgstr "リバーブを適用"
+
+msgid "Add Server"
+msgstr "サーバーを追加"
+
+msgid "Select Output Device:"
+msgstr "出力デバイスを選択："
+
+msgid "Audio"
+msgstr "オ
