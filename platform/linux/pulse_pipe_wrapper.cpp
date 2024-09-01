@@ -13,6 +13,12 @@ void PulsePipeWrapper::initializePipeWire() {
     // Logique pour initialiser PipeWire
 }
 
+void PulsePipeWrapper::initialize() {
+    // Logique d'initialisation pour PulseAudio ou PipeWire
+    std::cout << "Initialisation de PulsePipeWrapper..." << std::endl;
+    // Ajoutez ici le code nécessaire pour initialiser PulseAudio ou PipeWire
+}
+
 void PulsePipeWrapper::setOutputDevice(const std::string& deviceName) {
     // Logique pour définir le périphérique de sortie audio
 }

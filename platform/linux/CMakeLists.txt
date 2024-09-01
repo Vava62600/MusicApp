@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(MusicAppLinux)
+project(MusicApp)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -13,6 +13,9 @@ include_directories(
     ${GTK3_INCLUDE_DIRS}
     ${PULSEAUDIO_INCLUDE_DIRS}
     ${LIBADWAITA_INCLUDE_DIRS}
+    ../../gui
+    ../../backend
+    ../../platform/linux  # Assurez-vous que ce répertoire est ajouté ici
 )
 
 link_directories(
@@ -26,13 +29,16 @@ add_definitions(${GTK3_CFLAGS_OTHER})
 
 # Fichiers sources
 set(SOURCES
-    gui/main_window.cpp
-    gui/audio_controls.cpp
-    gui/effects_controls.cpp
-    gui/network_controls.cpp
-    backend/audio_manager.cpp
-    backend/effects_manager.cpp
-    platform/linux/pulse_pipe_wrapper.cpp
+    main_window.cpp
+    audio_controls.cpp
+    effects_controls.cpp
+    network_controls.cpp
+    settings_controls.cpp  # Ce fichier doit être présent
+    audio_manager.cpp
+    effects_manager.cpp
+    server_manager.cpp
+    pulse_pipe_wrapper.cpp
+    utils.cpp
 )
 
 # Exécutable principal

@@ -6,6 +6,7 @@
 
 class PulsePipeWrapper {
 public:
+    static void initialize();
     static void initializePulseAudio();
     static void initializePipeWire();
     static void setOutputDevice(const std::string& deviceName);
