@@ -1,0 +1,3 @@
+#!/bin/bash
+# Mise à jour du cache des applications sur le bureau
+update-desktop-database -q

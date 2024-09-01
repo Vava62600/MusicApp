@@ -1,0 +1,9 @@
+Package: musicapp
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: libgtk-3-0, libglib2.0-0, libpulse0, libadwaita-1-0
+Maintainer: Vava <valentin.legouffe@outlook.com>
+Description: MusicApp - Application de gestion audio multiplateforme
+ Application qui permet de gérer les périphériques audio, les effets, et les connexions réseau pour la musique.

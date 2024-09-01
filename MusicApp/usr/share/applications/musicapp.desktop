@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MusicApp
+Comment=Application de gestion audio
+Exec=/usr/bin/MusicApp
+Icon=musicapp
+Terminal=false
+Type=Application
+Categories=Audio;Music;
