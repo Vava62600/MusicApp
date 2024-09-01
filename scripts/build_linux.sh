@@ -1,10 +1,18 @@
 #!/bin/bash
 
+# Détecter la version de Debian
+DEBIAN_VERSION=$(lsb_release -sr)
+
 # Mettre à jour les paquets
 sudo apt update
 
-# Installer les dépendances de build
-sudo apt install -y build-essential cmake gettext libgtk-3-dev libglib2.0-dev libpulse-dev libadwaita-1-dev
+# Installer les dépendances de build pour Debian 10 à 13
+if [[ "$DEBIAN_VERSION" == "10" || "$DEBIAN_VERSION" == "11" || "$DEBIAN_VERSION" == "12" || "$DEBIAN_VERSION" == "13" ]]; then
+    sudo apt install -y build-essential cmake gettext libgtk-3-dev libglib2.0-dev libpulse-dev libadwaita-1-dev
+else
+    echo "Version de Debian non supportée. Veuillez utiliser Debian 10 à 13."
+    exit 1
+fi
 
 # Créer le répertoire de build
 mkdir -p build
@@ -36,7 +44,7 @@ Section: base
 Priority: optional
 Architecture: amd64
 Depends: libgtk-3-0, libglib2.0-0, libpulse0, libadwaita-1-0
-Maintainer: Vava <vava62600@outlook.com>
+Maintainer: Vava <valentin.legouffe@outlook.com>
 Description: MusicApp est une application de gestion audio multiplateforme.
 EOF
 
