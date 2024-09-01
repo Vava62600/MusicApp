@@ -12,7 +12,6 @@ MusicApp Tree
 │   │       │           └── vava
 │   │       │               └── mapp
 │   │       │                   └── MainActivityTest.kt
-│   │       ├── build.gradle
 │   │       ├── main
 │   │       │   ├── java
 │   │       │   │   └── com
@@ -26,8 +25,10 @@ MusicApp Tree
 │   │       │       ├── drawable
 │   │       │       │   ├── about.svg
 │   │       │       │   └── icon.png
-│   │       │       └── layout
-│   │       │           └── activity_main.xml
+│   │       │       ├── layout
+│   │       │       │   └── activity_main.xml
+│   │       │       └── values
+│   │       │           └── strings.xml
 │   │       └── test
 │   │           └── java
 │   │               └── com
@@ -35,21 +36,38 @@ MusicApp Tree
 │   │                       └── mapp
 │   │                           ├── AudioManagerTest.kt
 │   │                           └── EffectsManagerTest.kt
-│   └── gradle.properties
-├── backend
-│   ├── audio_manager.cpp
-│   ├── audio_manager.h
-│   ├── effects_manager.cpp
-│   └── effects_manager.h
+│   ├── build.gradle.kts
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradlew
+│   └── gradlew.bat
 ├── build-windows
 │   └── CMakeLists.txt
 ├── COPYING
-├── gui
-│   └── main_window.cpp
 ├── makefile
+├── MusicApp
+│   ├── DEBIAN
+│   │   └── control
+│   └── usr
+│       ├── local
+│       │   └── bin
+│       └── share
+│           ├── applications
+│           │   └── musicapp.desktop
+│           └── icons
+│               └── hicolor
+│                   └── 48x48
+│                       └── apps
+│                           └── musicapp.png
 ├── platform
 │   ├── android
 │   ├── linux
+│   │   ├── audio_controls.cpp
+│   │   ├── audio_controls.h
+│   │   ├── audio_manager.cpp
+│   │   ├── audio_manager.h
 │   │   ├── build
 │   │   │   ├── CMakeCache.txt
 │   │   │   ├── CMakeFiles
@@ -72,42 +90,57 @@ MusicApp Tree
 │   │   │   │   ├── CMakeOutput.log
 │   │   │   │   ├── Makefile2
 │   │   │   │   ├── Makefile.cmake
+│   │   │   │   ├── MusicApp.dir
+│   │   │   │   │   ├── audio_controls.cpp.o
+│   │   │   │   │   ├── audio_controls.cpp.o.d
+│   │   │   │   │   ├── backend
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── effects_controls.cpp.o
+│   │   │   │   │   ├── effects_controls.cpp.o.d
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── gui
+│   │   │   │   │   │   ├── main_window.cpp.o
+│   │   │   │   │   │   └── main_window.cpp.o.d
+│   │   │   │   │   ├── home
+│   │   │   │   │   │   └── vava
+│   │   │   │   │   │       └── Projets
+│   │   │   │   │   │           └── MusicApp
+│   │   │   │   │   │               ├── backend
+│   │   │   │   │   │               └── gui
+│   │   │   │   │   │                   ├── main_window.cpp.o
+│   │   │   │   │   │                   └── main_window.cpp.o.d
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── main_window.cpp.o
+│   │   │   │   │   ├── main_window.cpp.o.d
+│   │   │   │   │   └── progress.make
 │   │   │   │   ├── pkgRedirects
+│   │   │   │   ├── Progress
+│   │   │   │   │   ├── 4
+│   │   │   │   │   └── count.txt
 │   │   │   │   ├── progress.marks
-│   │   │   │   ├── PulsePipeWrapper.dir
-│   │   │   │   │   ├── build.make
-│   │   │   │   │   ├── cmake_clean.cmake
-│   │   │   │   │   ├── cmake_clean_target.cmake
-│   │   │   │   │   ├── compiler_depend.make
-│   │   │   │   │   ├── compiler_depend.ts
-│   │   │   │   │   ├── DependInfo.cmake
-│   │   │   │   │   ├── depend.make
-│   │   │   │   │   ├── flags.make
-│   │   │   │   │   ├── link.txt
-│   │   │   │   │   ├── progress.make
-│   │   │   │   │   ├── pulse_pipe_wrapper.cpp.o
-│   │   │   │   │   └── pulse_pipe_wrapper.cpp.o.d
-│   │   │   │   ├── PulsePipeWrapperTest.dir
-│   │   │   │   │   ├── build.make
-│   │   │   │   │   ├── cmake_clean.cmake
-│   │   │   │   │   ├── compiler_depend.make
-│   │   │   │   │   ├── compiler_depend.ts
-│   │   │   │   │   ├── DependInfo.cmake
-│   │   │   │   │   ├── depend.make
-│   │   │   │   │   ├── flags.make
-│   │   │   │   │   ├── link.txt
-│   │   │   │   │   ├── progress.make
-│   │   │   │   │   ├── pulse_pipe_wrapper_test.cpp.o
-│   │   │   │   │   └── pulse_pipe_wrapper_test.cpp.o.d
 │   │   │   │   └── TargetDirectories.txt
 │   │   │   ├── cmake_install.cmake
-│   │   │   ├── libPulsePipeWrapper.a
-│   │   │   ├── Makefile
-│   │   │   └── PulsePipeWrapperTest
+│   │   │   └── Makefile
 │   │   ├── CMakeLists.txt
+│   │   ├── effects_controls.cpp
+│   │   ├── effects_controls.h
+│   │   ├── effects_manager.cpp
+│   │   ├── effects_manager.h
+│   │   ├── main_window.cpp
+│   │   ├── main_window.h
+│   │   ├── network_controls.cpp
+│   │   ├── network_controls.h
 │   │   ├── pulse_pipe_wrapper.cpp
 │   │   ├── pulse_pipe_wrapper.h
-│   │   └── pulse_pipe_wrapper_test.cpp
+│   │   ├── pulse_pipe_wrapper_test.cpp
+│   │   ├── settings_controls.cpp
+│   │   └── settings_controls.h
 │   └── windows
 │       └── build
 ├── README.md
@@ -118,7 +151,9 @@ MusicApp Tree
 │   ├── json_effects
 │   └── themes
 ├── scripts
-│   └── install_dependencies.sh
+│   ├── build_linux.sh
+│   ├── install_dependencies.sh
+│   └── install_script.nsi
 ├── translations
 │   ├── ar.po
 │   ├── be.po
@@ -128,6 +163,9 @@ MusicApp Tree
 │   ├── es.po
 │   ├── fr.po
 │   ├── it.po
-│   ├── jpn.po
-│   └── nl.po
+│   ├── jp.po
+│   ├── nl.po
+│   └── zh.po
 └── tree
+
+66 directories, 100 files
