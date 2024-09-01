@@ -4,5 +4,7 @@
         "string": "cpp",
         "string_view": "cpp",
         "iosfwd": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
