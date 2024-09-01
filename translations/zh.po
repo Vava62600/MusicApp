@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh\n"
+
+msgid "MusicApp"
+msgstr "音乐应用"
+
+msgid "Choose Audio API:"
+msgstr "选择音频API："
+
+msgid "Start with the system"
+msgstr "随系统启动"
+
+msgid "Apply Reverb"
+msgstr "应用混响"
+
+msgid "Add Server"
+msgstr "添加服务器"
+
+msgid "Select Output Device:"
+msgstr "选择输出设备："
+
+msgid "Audio"
+msgstr "音频"
+
+msgid "Effects"
+msgstr "效果"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Choose Language:"
+msgstr "选择语言："

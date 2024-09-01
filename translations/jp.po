@@ -22,4 +22,16 @@ msgid "Select Output Device:"
 msgstr "出力デバイスを選択："
 
 msgid "Audio"
-msgstr "オ
+msgstr "オーディオ"
+
+msgid "Effects"
+msgstr "エフェクト"
+
+msgid "Network"
+msgstr "ネットワーク"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Choose Language:"
+msgstr "言語を選択："
