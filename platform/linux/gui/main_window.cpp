@@ -1,0 +1,33 @@
+#include <gtk/gtk.h>
+#include "main_window.h"
+#include "settings_controls.h"
+#include "effects_controls.h"
+#include "backend/server_manager.h"
+
+GtkWidget* create_main_window() {
+    GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title(GTK_WINDOW(window), "MusicApp");
+    gtk_window_set_default_size(GTK_WINDOW(window), 800, 600);
+    g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
+
+    GtkWidget *notebook = gtk_notebook_new();
+    gtk_container_add(GTK_CONTAINER(window), notebook);
+
+    GtkWidget *effects_controls = create_effects_controls();
+    gtk_notebook_append_page(GTK_NOTEBOOK(notebook), effects_controls, gtk_label_new("Effects"));
+
+    GtkWidget *settings_controls = create_settings_controls();
+    gtk_notebook_append_page(GTK_NOTEBOOK(notebook), settings_controls, gtk_label_new("Settings"));
+
+    return window;
+}
+
+int main(int argc, char *argv[]) {
+    gtk_init(&argc, &argv);
+
+    GtkWidget *mainWindow = create_main_window();
+    gtk_widget_show_all(mainWindow);
+
+    gtk_main();
+    return 0;
+}
